@@ -1,0 +1,99 @@
+[
+  {
+    "timestamp": "2026-05-08T10:00:00+04:00",
+    "source_ip": "192.168.1.106",
+    "event_type": "Authentication",
+    "action": "failed",
+    "user": "admin",
+    "details": "Windows Event ID 4625: An account failed to log on. Failure reason: bad password."
+  },
+  {
+    "timestamp": "2026-05-08T10:00:45+04:00",
+    "source_ip": "192.168.1.106",
+    "event_type": "Authentication",
+    "action": "failed",
+    "user": "admin",
+    "details": "Windows Event ID 4625: An account failed to log on. Failure reason: bad password."
+  },
+  {
+    "timestamp": "2026-05-08T10:01:20+04:00",
+    "source_ip": "192.168.1.106",
+    "event_type": "Authentication",
+    "action": "failed",
+    "user": "admin",
+    "details": "Windows Event ID 4625: An account failed to log on. Failure reason: bad password."
+  },
+  {
+    "timestamp": "2026-05-08T10:02:05+04:00",
+    "source_ip": "192.168.1.106",
+    "event_type": "Authentication",
+    "action": "failed",
+    "user": "admin",
+    "details": "Windows Event ID 4625: An account failed to log on. Failure reason: bad password."
+  },
+  {
+    "timestamp": "2026-05-08T10:03:00+04:00",
+    "source_ip": "192.168.1.106",
+    "event_type": "Authentication",
+    "action": "failed",
+    "user": "admin",
+    "details": "Windows Event ID 4625: An account failed to log on. Failure reason: bad password."
+  },
+  {
+    "timestamp": "2026-05-08T10:04:15+04:00",
+    "source_ip": "192.168.1.106",
+    "event_type": "Authentication",
+    "action": "success",
+    "user": "admin",
+    "details": "Windows Event ID 4624: Successful logon after multiple failed attempts."
+  },
+  {
+    "timestamp": "2026-05-08T10:10:00+04:00",
+    "source_ip": "10.0.0.51",
+    "event_type": "HTTP Request",
+    "action": "POST /login",
+    "user": "unknown",
+    "details": "username=admin' OR '1'='1&password=anything"
+  },
+  {
+    "timestamp": "2026-05-08T10:12:00+04:00",
+    "source_ip": "172.16.0.22",
+    "event_type": "Command Execution",
+    "action": "admin special privileges assigned",
+    "user": "labuser",
+    "details": "Windows Event ID 4672: Special privileges assigned to a new logon."
+  },
+  {
+    "timestamp": "2026-05-08T10:14:00+04:00",
+    "source_ip": "172.16.0.50",
+    "event_type": "Process Creation",
+    "action": "C:\\Users\\Public\\Downloads\\invoice_update.exe",
+    "user": "win",
+    "details": "Windows Event ID 4688: New process created from user downloads folder."
+  },
+  {
+    "timestamp": "2026-05-08T10:18:00+04:00",
+    "source_ip": "172.16.0.77",
+    "event_type": "Network Connection",
+    "action": "established",
+    "user": "service_account",
+    "details": "Outbound connection to suspicious IP observed in lab traffic."
+  },
+  {
+    "timestamp": "2026-05-08T10:20:00+04:00",
+    "source_ip": "172.16.0.101",
+    "event_type": "Authentication",
+    "action": "success",
+    "user": "analyst1",
+    "details": "Windows Event ID 4624: Normal interactive logon."
+  },
+  {
+    "timestamp": "2026-05-08T10:25:00+04:00",
+    "source_ip": "172.16.0.102",
+    "event_type": "Service Change",
+    "action": "service start type changed",
+    "user": "SYSTEM",
+    "details": "Windows Event ID 7040: Background service changed from auto start to demand start."
+  }
+]
+
