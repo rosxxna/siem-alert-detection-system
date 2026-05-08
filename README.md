@@ -259,32 +259,6 @@ This is a portfolio/lab project, so it has some intentional limitations:
 - The dashboard is static HTML and expects the Flask API to run locally.
 - Raw lab logs are excluded from GitHub for privacy.
 
-## Recommended Improvements
-
-High-impact next steps:
-
-1. Add SQLite persistence for alerts and triage decisions.
-2. Add a dedicated upload/import endpoint for new log files.
-3. Expand Windows detections for events such as 4688, 7045, 1102, 4720, 4728, and 4732.
-4. Add MITRE ATT&CK technique IDs to each rule.
-5. Add unit tests for log normalization and detection rules.
-6. Add screenshots of the dashboard to the README after publishing.
-7. Add a short demo video or GIF for GitHub/LinkedIn.
-
-## Portfolio Description
-
-Suggested resume bullet:
-
-```text
-Built a SIEM alert detection and triage system using Python and Flask, tested with Windows Event Logs from a VM/Splunk lab, with sanitized sample logs, detection rules, API endpoints, and a SOC analyst dashboard.
-```
-
-Suggested interview summary:
-
-```text
-This project demonstrates how a basic SIEM workflow works. I tested it using Windows Event Logs generated in my VM lab and exported through Splunk. For the public GitHub version, I included sanitized sample logs to avoid exposing usernames, host details, SIDs, or local paths. The system normalizes events, applies detection rules, exposes alerts through a Flask API, and provides a dashboard for triage.
-```
-
 ## Troubleshooting
 
 ### Flask Is Missing
