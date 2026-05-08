@@ -89,9 +89,6 @@ Private local files not included in GitHub:
 
 ```text
 Windows_logs.json
-PROJECT_GUIDE.md
-PROJECT_STRATEGY.md
-__pycache__/
 ```
 
 ## Quick Start
